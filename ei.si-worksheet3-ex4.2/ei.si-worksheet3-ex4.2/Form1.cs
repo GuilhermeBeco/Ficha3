@@ -41,8 +41,7 @@ namespace ei_si_worksheet3
         {
             try
             {              
-                //file = new FileStream("temp.dat", FileMode.OpenOrCreate);
-                byte[] textFileBytes = Encoding.UTF8.GetBytes(textFile);
+                byte[] textFileBytes = Encoding.UTF8.GetBytes(textFile); //a var textFile vem da funcao ButtonChooseFile
                 string textFile64 = Convert.ToBase64String(textFileBytes);
                 byte[] clearBytes = Encoding.UTF8.GetBytes(textFile64);
                 byte[] encryptedBytes = null;
@@ -62,8 +61,8 @@ namespace ei_si_worksheet3
                     }
                 }
                 fileStreamWriter = new StreamWriter("temp.dat");
-                fileStreamWriter.WriteLine(Convert.ToBase64String(encryptedBytes));
-                MessageBox.Show(Convert.ToBase64String(encryptedBytes));
+                fileStreamWriter.WriteLine(Convert.ToBase64String(encryptedBytes));//Os valores são escritos
+                
 
             }
             catch(Exception ex)
@@ -114,14 +113,12 @@ namespace ei_si_worksheet3
         private void ButtonDecrypt_Click(object sender, EventArgs e)
         {
             try
-            {
-                
+            {               
                 fileStreamReader = new StreamReader("temp.dat");
                 textFileTemp = fileStreamReader.ReadToEnd();
-                MessageBox.Show(textFileTemp);
                 byte[] encryptedBytes= Convert.FromBase64String(textFileTemp);
                 byte[] clearBytes = null;
-                clearBytes = symmetricsSI.Decrypt(encryptedBytes);
+                clearBytes = symmetricsSI.Decrypt(encryptedBytes); //Após a funcao, os valores não são os mesmos aos originais
                 if (clearBytes.Length >= 200)
                 {
                     for (int i = 0; i < 200; i++)
@@ -138,7 +135,7 @@ namespace ei_si_worksheet3
                 }
                 fileStreamReader.Close();
                 fileStreamWriter = new StreamWriter("temp.dat");
-                fileStreamWriter.WriteLine(Convert.ToBase64String(clearBytes));
+                fileStreamWriter.WriteLine(Convert.ToBase64String(clearBytes));//assim como os resultados no file
 
             }
             catch (Exception ex)
