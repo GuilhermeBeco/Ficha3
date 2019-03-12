@@ -135,6 +135,7 @@ namespace ei_si_worksheet3
                 }
                 fileStreamReader.Close();
                 fileStreamWriter = new StreamWriter("temp.dat");
+                //fileStreamWriter.WriteLine(Encoding.UTF8.GetString(encryptedBytes))
                 fileStreamWriter.WriteLine(Convert.ToBase64String(clearBytes));//assim como os resultados no file
 
             }

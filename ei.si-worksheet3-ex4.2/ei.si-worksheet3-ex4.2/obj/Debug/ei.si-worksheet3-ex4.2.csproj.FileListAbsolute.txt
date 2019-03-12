@@ -10,3 +10,14 @@ C:\Users\Guilherme\Documents\GitHub\SI\ei.si-worksheet3-ex4.2\ei.si-worksheet3-e
 C:\Users\Guilherme\Documents\GitHub\SI\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si-worksheet3-ex4.2.csproj.CopyComplete
 C:\Users\Guilherme\Documents\GitHub\SI\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si_worksheet3_ex4.2.exe
 C:\Users\Guilherme\Documents\GitHub\SI\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si_worksheet3_ex4.2.pdb
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si-worksheet3-ex4.2.csprojAssemblyReference.cache
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei_si_worksheet3.Form1.resources
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei_si_worksheet3.Properties.Resources.resources
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si-worksheet3-ex4.2.csproj.GenerateResource.cache
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si-worksheet3-ex4.2.csproj.CoreCompileInputs.cache
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si_worksheet3_ex4.2.exe
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si_worksheet3_ex4.2.pdb
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\bin\Debug\ei.si_worksheet3_ex4.2.exe.config
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\bin\Debug\ei.si_worksheet3_ex4.2.exe
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\bin\Debug\ei.si_worksheet3_ex4.2.pdb
+C:\Users\Guilherme\Documents\Ficha3\ei.si-worksheet3-ex4.2\ei.si-worksheet3-ex4.2\obj\Debug\ei.si-worksheet3-ex4.2.csproj.CopyComplete
